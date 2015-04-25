@@ -1,9 +1,0 @@
-# -*- snippet -*-
-# name: virtual task
-# key: vtask
-# group: verilog
-# --
-/*! Description */
-virtual task ${1:Name}();
-   $0
-endtask : $1

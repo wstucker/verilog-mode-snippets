@@ -3,7 +3,6 @@
 # key: task
 # group: verilog
 # --
-/*! Description */
-task ${1:Name}();
+${1:$$(yas-choose-value '("" "virtual "))}task ${2:NAME}(${3:ARGS});
    $0
-endtask : $1
+endtask : $2
