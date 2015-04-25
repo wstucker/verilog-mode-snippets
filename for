@@ -1,3 +1,4 @@
+# -*- snippet -*-
 # name: for
 # key: for
 # group: verilog
