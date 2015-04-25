@@ -1,0 +1,13 @@
+# -*- snippet -*-
+# name: fork
+# key: fork
+# group: verilog
+# --
+fork
+   begin
+      $0
+   end
+   begin
+      
+   end
+join${1:$$(yas-choose-value '("" "_any" "_none"))}
