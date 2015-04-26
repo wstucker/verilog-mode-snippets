@@ -5,8 +5,8 @@
 # --
 if ($1) begin
    $0
-end else if () begin
+${2:end else if ($3) begin
    
-end else begin
+}${4:end else begin
 
-end
+}end
