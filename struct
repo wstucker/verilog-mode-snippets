@@ -3,8 +3,7 @@
 # key: struct
 # group: verilog
 # --
-/*! Typedef Description */
 typedef struct {
-    $0;    //!< Field Description
+    $0;
 } ${1:Name};
 
