@@ -3,12 +3,6 @@
 # key: func
 # group: verilog
 # --
-/*! Function Description
- *
- *  \param <name> <description>
- *
- *  \return <return value description>
- */
-function ${2:Type} ${1:Name}();
+${1:virtual }function ${2:void} ${3:name}(${4:args});
    $0
-endfunction : $1
+endfunction : $3
